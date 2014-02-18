@@ -1,0 +1,4 @@
+AlienSiege
+==========
+
+The game itself was supposed to be a Space Invaders clone entirely conceived and developed with Canvas and CSS3. The technical challenge was also to recreate a smooth Flash experience using only HTML5, CSS3 and Javascript without the need of any web plugins. Than I thought I should try a modern and organised approach in game architecture and push the boundaries and come up with a fresh and innovative game design rather than something retro - there is more than enough of blocky and pixelated 8 bit clones. I decided to replace Canvas with SVG although I knew this will seriously impact the memory requirements of the game, but I felt this was the best way to create resolution independent vector graphics game. Certainly I was fully aware that SVGs aren’t necessarily the best solution in all situations.
