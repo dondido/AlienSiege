@@ -1,0 +1,18 @@
+{
+  "manifest_version":2,
+  "name":"Alien Siege",
+  "description":"Alien Siege is a modern space invaders style arcade shooter.",
+  "version":"6",
+  "icons":{
+    "128":"128x128.png"
+  },
+  "app":{
+    "launch":{
+      "web_url":"http://aliensiege.apps.publicgamelibrary.com/webapp/index.html"
+    }
+  },
+  "permissions":[
+    "unlimitedStorage"
+  ],
+  "offline_enabled":true
+}
