@@ -2,9 +2,13 @@ AlienSiege
 ==========
 
 Alien Siege is a multi-platform and cross-browser game that explores minimalistic design and resolution independent gameplay. Its design is sleek and utilises landscape and portrait responsive formatting so it is compatible on any device. It uses a compact JSON representation of the game animation, which is rendered using SVG, HTML5, CSS3 and Javascript. It is published and distributed in the following formats:
+
 1. Browser game - http://aliensiege.apps.publicgamelibrary.com/html5/index.html
+
 2. Web app - https://chrome.google.com/webstore/detail/alien-siege/iabpmmbbmlbmjhkfciiabeahnmijpnog
+
 3. Android APK file (including Java wrapper with Admob Banner and Interstitial Ads and Google Analytics Integration) - https://play.google.com/store/apps/details?id=com.publicgamelibrary.aliensiege. 
+
 4. http://aliensiege.apps.publicgamelibrary.com/flash/alien-siege.swf
 
 Well documented source files are provided for each one of the formats.
