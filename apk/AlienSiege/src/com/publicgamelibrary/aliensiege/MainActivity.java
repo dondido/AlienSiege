@@ -43,7 +43,7 @@ public class MainActivity extends Activity {
 
 		// Create the interstitial.
 		interstitial = new InterstitialAd(this);
-		interstitial.setAdUnitId("ca-app-pub-9226577604414587/3051458080");
+		interstitial.setAdUnitId("xxxx");
 
 		// Begin loading your interstitial.
 		interstitial.loadAd(adRequest);
@@ -74,7 +74,7 @@ public class MainActivity extends Activity {
 
 		// Create the adView.
 		// adView = new AdView(this);
-		// adView.setAdUnitId("ca-app-pub-9226577604414587/9326174087");
+		// adView.setAdUnitId("xxxxx");
 		// adView.setAdSize(AdSize.SMART_BANNER);
 
 		// Lookup your LinearLayout assuming it's been given
