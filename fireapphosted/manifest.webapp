@@ -1,0 +1,21 @@
+{
+  "name": "Alien Siege",
+  "description": "Alien Siege is a modern space invaders style arcade shooter.",
+  "version": "1",
+  "fullscreen": "true",
+  "icons": {
+	"32": "/fireapp/icons/32x32.png",
+	"60": "/fireapp/icons/60x60.png",
+	"90": "/fireapp/icons/90x90.png",
+	"128": "/fireapp/icons/128x128.png",
+    "256": "/fireapp/icons/256x256.png",
+	"512": "/fireapp/icons/512x512.png"
+  },
+  "launch_path": "/fireapp/index.html",
+  "installs_allowed_from": ["*"],
+  "appcache_path": "/aliensiege.appcache",
+  "developer": {
+    "name": "Dian Dimitrov",
+    "url": "http://publicgamelibrary.com"
+  }
+}

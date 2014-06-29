@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en" manifest="aliensiege.appcache">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="initial-scale=1.0, user-scalable=no"/>
+        <title>Alien Siege</title>
+        <link rel="stylesheet" type="text/css" href="gamestyle.css">
+    </head>
+    <body>
+		<div id="preloader"></div>
+        <div id="swiffycontainer">
+            <div id="sponsor-link"><a href="http://publicgamelibrary.com" target="_blank">PUBLICGAMELIBRARY.COM</a></div>
+			<div id="submit-score">
+				<div>
+					<label for="name-input">ENTER NAME</label>
+					<input type="text" class="name-input" id="name-input" value="Anonymous" maxlength="18" data-entryId = "1"/>
+				</div>
+				<div class="btn">Submit</div>
+			</div>
+			<div id="src-code">
+				<section>
+					<h1>About Alien Siege</h1>
+					<div>
+						<p>Alien Siege is a multi-platform and cross-browser game that explores minimalistic design and resolution independent gameplay. Its design is sleek and utilises landscape and portrait responsive formatting so it is compatible on any device. It uses a compact JSON representation of the game animation, which is rendered using SVG, HTML5, CSS3 and Javascript. It is published and distributed in the following formats:</p><!--
+						--><ol>
+							<li>
+								<a href="http://aliensiege.apps.publicgamelibrary.com/html5/index.html" target="_blank">Browser game</a>
+							</li>
+							<li>
+								<a href="https://chrome.google.com/webstore/search-apps/Alien%20Siege" target="_blank">Web app</a>
+							</li>
+							<li>
+								<a href="https://play.google.com/store/apps/details?id=com.publicgamelibrary.aliensiege" target="_blank">Android APK file</a> (including Java wrapper with Admob Banner and Interstitial Ads and Google Analytics Integration).
+							</li>
+							<li>
+								SWF output
+							</li>
+						</ol><!--
+						--><p>Source files are provided for each one of them.<br>You can fork it on Github:</br><a href="https://github.com/dondido/AlienSiege" target="_blank">https://github.com/dondido/AlienSiege</a></p>
+					</div>
+				</section>
+				<div class="close-btn btn">Close</div>
+			</div>
+			<div id="scoreboard">
+				<div class="list">
+					<table>
+						<colgroup>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+						</colgroup>
+						<thead>
+							<tr>
+								<td>
+									<div class='checkbox'>
+										<div></div>
+									</div>
+								</td>
+								<td>Game</td>
+								<td>Name</td>
+								<td>Date</td>
+								<td>Score</td>
+							</tr>
+						</thead>
+						<tbody>
+						</tbody>
+					</table>
+				</div>
+				<div class="scoreboard-btns">
+					<div class="clear-btn btn">Delete</div>
+					<div class="close-btn btn">Close</div>
+				</div>
+			</div>
+        </div>
+        <audio id="intro" preload>
+            <source src="intro.mp3">
+            <source src="intro.ogg">
+        </audio>
+        <audio id="end" preload>
+            <source src="end.mp3">
+            <source src="end.ogg">
+        </audio>
+        <audio id="laser" preload>
+            <source src="laser.mp3">
+            <source src="laser.ogg">
+        </audio>
+        <audio id="ping" preload>
+            <source src="ping.mp3">
+            <source src="ping.ogg">
+        </audio>
+        <audio id="boom1" preload>
+            <source src="boom1.mp3">
+            <source src="boom1.ogg">
+        </audio>
+        <audio id="dead" preload>
+            <source src="dead.mp3">
+            <source src="dead.ogg">
+        </audio>
+        <script async src="runtime52.js"></script>
+        <script async src="swiffyobject.js"></script>
+        <script async src="init.js"></script>
+    </body>
+</html>
