@@ -9,7 +9,9 @@ Alien Siege is a multi-platform and cross-browser game that explores minimalisti
 
 3. Android APK file (including Java wrapper with Admob Banner and Interstitial Ads and Google Analytics Integration) - https://play.google.com/store/apps/details?id=com.publicgamelibrary.aliensiege. 
 
-4. Swf raw output http://aliensiege.apps.publicgamelibrary.com/flash/alien-siege.swf
+4. Firefox packaged app (hosted version is also available) https://marketplace.firefox.com/app/alien-siege-1
+
+5. Swf raw output http://aliensiege.apps.publicgamelibrary.com/flash/alien-siege.swf
 
 Well documented source files are provided for each one of the formats.
 
