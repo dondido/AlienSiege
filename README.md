@@ -1,4 +1,4 @@
-AlienSiege
+alien-siege
 ==========
 
 Alien Siege is a multi-platform and cross-browser game that explores minimalistic design and resolution independent gameplay. Its design is sleek and utilises landscape and portrait responsive formatting so it is compatible on any device. It uses a compact JSON representation of the game animation, which is rendered using SVG, HTML5, CSS3 and Javascript. It is published and distributed in the following formats:
